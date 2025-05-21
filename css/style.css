@@ -1,0 +1,180 @@
+body {
+    background-color: #F5FAFF;
+    margin: 0;
+    color: #2D3748;
+}
+
+header {
+    color: #1A365D;
+    font-size: 50px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #2B6CB0;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3, a {
+    color: #2B6CB0;
+    font-size: 28px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1A365D;
+}
+
+article {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    margin: 20px;
+}
+
+.btnmenu {
+    color: white;
+    background-color: #3182CE;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.btnmenu:hover {
+    background-color: #2C5282;
+}
+
+
+.Navegacion {
+    display: none;
+    background-color: #EDF2F7;
+    border-radius: 8px;
+    border: 1px solid #CBD5E0;
+    padding: 10px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.show {
+    display: flex;
+}
+
+.OpcionNav {
+    list-style: none;
+    padding: 12px;
+    border-bottom: 1px solid #E2E8F0;
+}
+
+.OpcionNav:hover {
+    background-color: #2B6CB0;
+    color: white;
+}
+.Publicidades {
+    border-radius: 10px;
+    margin: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E2E8F0;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+h4 {
+    margin: 0;
+    color: #4A5568;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    gap: 10px;
+}
+
+.Mensaje {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #CBD5E0;
+    border-radius: 8px;
+    resize: vertical;
+}
+
+.captchacorrecto {
+    color: #38A169;
+}
+
+.captchaincorrecto {
+    color: #E53E3E;
+}
+
+.ocultarcaptcha {
+    display: none;
+}
+
+table, td, tr {
+    border: 1px solid #CBD5E0;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+@media only screen and (min-width: 660px) {
+    .maincontentpage {
+        display: flex;
+        justify-content: center;
+    }
+
+    .newpost .Publicidades {
+        margin-top: 22px;
+        margin-left: 10px;
+        height: 350px;
+    }
+
+    .ContactoPag .Publicidades {
+        margin-left: 700px;
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .btnmenu {
+        display: none;
+    }
+
+    .Navegacion {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        background-color: #EDF2F7;
+    }
+
+    .newpost {
+        display: flex;
+    }
+
+    .ContactoPag {
+        display: flex;
+        flex-direction: row;
+    }
+
+
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Del Sur</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>Del Sur</header>
+
+    <nav>
+        <button class="btnmenu">Menu</button>
+        <ul class="Navegacion">
+            <li class="OpcionNav"><a class="menu" href="index.html">Inicio</a></li>
+            <li class="OpcionNav"><a class="menu" href="productos.html">Productos</a></li>
+            <li class="OpcionNav"><a class="menu" href="Contacto.html">Contactanos</a></li>
+  
+        </ul>     
+    <script src="js/menunav.js"></script>
+    </nav>
+    <main class="ContactoPag">
+        <form action="" id="MenAnonimo">
+            <h3>Para consultas de ventas, hablar directamente a contactoventas@delsur.com. Si no, dejanos tu contacto y el asunto. </h3>
+            <input type="text" name="email" placeholder="email" >
+            <input type="text" name="asunto" placeholder="Asunto" >
+            <input type="text" name="mensaje" placeholder="Introdusca el mensaje" class="Mensaje">
+            <button type="submit" id="enviar">enviar</button>
+            <p>
+                <span id="feedbackcaptcha"></span>
+            </p>
+            <aside id="formcaptcha" >
+                <form action="" id="Captcha">
+                    <H3>Confirma que eres humano</H3>
+                    <button type="button" id="btngen">Generar captcha</button>
+                    <p>
+                        <span id="textcaptcha">*******</span>
+                    </p>
+                    <input id="resultadocaptcha" type="text" placeholder="escriba el texto de arriba">
+                    <button type="button" id="btnconfirmar">Confirmar captcha</button>
+                </form>
+            </aside>
+
+            <script src="js/contacto.js"></script>
+        </form>
+        <article class="Publicidades">
+            <section class="Publicidad">
+                <h3>
+                    Buscamos personal calificado
+                </h3>
+                <p>
+                    Incorporamos técnicos y operarios para nuestras plantas de producción.
+                </p>
+                <p>
+                  Dejanos tu email y nos pondremos en contacto.
+                </p>
+                <p>
+                    Telefono: (111) 000 111
+                </p>
+            </section>
+        </article>      
+    </main>
+    <footer>
+        <h4>Del Sur</h4>   
+        <h4>Ubicación: Av. Industrial 3223, Ciudad Falsa</h4>
+        <h4>Email: contactoventas@delsur.com</h4>
+        <h4>Telefono: (111) 000 111</h4>
+    </footer>
+</body>
+</html>
