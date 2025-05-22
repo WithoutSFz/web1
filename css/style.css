@@ -40,7 +40,7 @@ article {
     margin: 20px;
 }
 
-.btnmenu {
+.BtnMenu {
     color: white;
     background-color: #3182CE;
     font-size: 18px;
@@ -51,7 +51,7 @@ article {
     margin: 10px;
 }
 
-.btnmenu:hover {
+.BtnMenu:hover {
     background-color: #2C5282;
 }
 
@@ -133,9 +133,15 @@ table, td, tr {
     border-collapse: collapse;
     padding: 8px;
 }
+.ImgPublicidad{
+width: 150px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
 
 @media only screen and (min-width: 660px) {
-    .maincontentpage {
+    main {
         display: flex;
         justify-content: center;
     }
@@ -154,8 +160,10 @@ table, td, tr {
         flex-direction: row;
         justify-content: space-around;
     }
-
-    .btnmenu {
+    .ImgPublicidad{
+        width: 300px; 
+    }
+    .BtnMenu {
         display: none;
     }
 

@@ -1,4 +1,4 @@
-let menu =document.querySelector(".btnmenu");
+let menu =document.querySelector(".BtnMenu");
 menu.addEventListener("click", toggleMenu);
 
 function toggleMenu() {

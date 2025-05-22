@@ -63,7 +63,7 @@ function enviarMensaje(){
     else{
         feedback.className="captchaincorrecto";
         feedback.innerHTML="complete el captcha";
-        event.preventDefault();
+        event.preventDefault();// impide que se refresque la pagina
     }
 
 }
